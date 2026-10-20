@@ -60,7 +60,7 @@ export default function Process() {
       ref={sectionRef}
       id="process"
       aria-labelledby="process-heading"
-      className="relative overflow-hidden border-t border-border bg-paper py-16 sm:py-20 lg:py-24"
+      className="relative overflow-hidden  bg-paper py-16 sm:py-20 lg:py-24"
     >
       <div className="page-container">
         <div className="grid gap-10 ">

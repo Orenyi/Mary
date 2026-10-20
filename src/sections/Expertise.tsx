@@ -6,37 +6,37 @@ const EXPERTISE_ITEMS = [
     number: "01",
     title: "Social Media Management",
     description:
-      "Planning, creating and publishing content that keeps your brand active and engaging on social media.",
+      "Planning, creating, and publishing platform-specific content while reviewing performance metrics to understand what resonates with the audience.",
   },
   {
     number: "02",
-    title: "Content Creation",
+    title: "Email Marketing",
     description:
-      "Designing eye-catching visual content and mockups for promotions, brand awareness and storytelling.",
+      "Creating segmented email campaigns with relevant copy, clear calls to action, and performance tracking to measure subscriber response.",
   },
   {
     number: "03",
-    title: "Social Media Copywriting",
+    title: "Content Marketing",
     description:
-      "Writing clear, engaging and audience-focused captions that match your brand voice.",
+      "Developing website articles, promotional videos, and other audience-focused content that communicates clear brand or campaign messages.",
   },
   {
     number: "04",
-    title: "Hashtag Research",
+    title: "Video Editing",
     description:
-      "Finding relevant hashtags to support content discoverability and reach.",
+      "Editing short-form videos with clean cuts, text, pacing, transitions, and visual sequencing to keep the message clear and engaging.",
   },
   {
     number: "05",
-    title: "Digital Communication & Marketing Research",
+    title: "Photography",
     description:
-      "Researching audience interests and content ideas to support clear digital communication.",
+      "Capturing well-composed images with attention to lighting, framing, and detail, with basic Adobe Photoshop editing for refinement.",
   },
   {
     number: "06",
-    title: "Promotional Content & Mockup Design",
+    title: "Transcription",
     description:
-      "Creating promotional materials and mockup presentations for digital and print projects.",
+      "Turning audio recordings into accurate, readable transcripts that preserve the speaker’s meaning, context, and flow.",
   },
 ];
 
@@ -101,8 +101,9 @@ export default function Expertise() {
               />
 
               <p className="max-w-[30ch] text-sm leading-[1.85] text-paper/80 sm:text-base">
-                From content creation to social media management, I help brands
-                show up with purpose and consistency.
+                I combine audience insights, digital marketing, and visual
+                storytelling to create targeted campaigns and content tailored
+                to each audience and channel.
               </p>
             </div>
 

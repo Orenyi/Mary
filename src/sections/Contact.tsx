@@ -7,6 +7,13 @@ import {
   FiLinkedin,
 } from "react-icons/fi";
 
+import {
+  FaXTwitter,
+  FaTiktok,
+  FaFacebookF,
+  FaInstagram,
+} from "react-icons/fa6";
+
 import { StarsBackground } from "../../@/components/animate-ui/backgrounds/stars";
 
 const CONTACT_LINKS = {
@@ -51,6 +58,34 @@ const CONTACT_ACTIONS = [
     Icon: FiLinkedin,
     external: true,
     primary: false,
+  },
+];
+
+const SOCIAL_LINKS = [
+  {
+    name: "X",
+    href: "https://x.com/YOUR_USERNAME",
+    Icon: FaXTwitter,
+    color: "#000000",
+  },
+  {
+    name: "TikTok",
+    href: "https://www.tiktok.com/@YOUR_USERNAME",
+    Icon: FaTiktok,
+    color: "#000000",
+  },
+
+  {
+    name: "Instagram",
+    href: "https://www.instagram.com/YOUR_USERNAME/",
+    Icon: FaInstagram,
+    color: "#E4405F",
+  },
+  {
+    name: "Facebook",
+    href: "https://www.facebook.com/YOUR_USERNAME",
+    Icon: FaFacebookF,
+    color: "#1877F2",
   },
 ];
 
@@ -198,6 +233,36 @@ export default function Contact() {
           <p className="mt-8 font-heading text-sm italic text-muted sm:mt-10 sm:text-base">
             Good things start with a conversation.
           </p>
+
+          {/* Social media links */}
+          <motion.div
+            initial={shouldReduceMotion ? false : { opacity: 0, y: 10 }}
+            animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 10 }}
+            transition={{
+              duration: shouldReduceMotion ? 0 : 0.45,
+              delay: shouldReduceMotion ? 0 : 0.35,
+            }}
+            className="mt-6 flex items-center justify-center gap-4"
+            aria-label="Social media profiles"
+          >
+            {SOCIAL_LINKS.map(({ name, href, Icon, color }) => (
+              <motion.a
+                key={name}
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`Mary on ${name}`}
+                title={name}
+                whileHover={
+                  shouldReduceMotion ? undefined : { y: -4, scale: 1.08 }
+                }
+                whileTap={shouldReduceMotion ? undefined : { scale: 0.95 }}
+                className="flex h-11 w-11 items-center justify-center rounded-full border border-border bg-white/70 transition-colors duration-300 hover:border-transparent hover:bg-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-terracotta"
+              >
+                <Icon size={19} color={color} aria-hidden="true" />
+              </motion.a>
+            ))}
+          </motion.div>
         </motion.div>
       </div>
     </section>

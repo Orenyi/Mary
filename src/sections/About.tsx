@@ -6,8 +6,8 @@ const ABOUT_CONTENT = {
   label: "01. ABOUT ME",
   heading: "A communicator at heart, a creator by passion.",
   paragraphs: [
-    "I'm Mary Ahuoiza Otaru, a final year Mass Communication student at Prince Abubakar Audu University Anyigba, with a strong interest in digital marketing, social media management and content creation.",
-    "I enjoy helping brands tell their stories through thoughtful content, clear messaging and consistent online presence. My experience at HK Designs Studios has strengthened my skills in social media management, copywriting, content design and audience research.",
+    "I’m Mary Ahuoiza Otaru, a Mass Communication graduate building a career in digital marketing across social media, email and content marketing. I help brands turn ideas into clear, targeted content and campaigns that speak to the right audience and support stronger engagement.",
+    "My edge is the combination of marketing, writing and visual communication. From segmented emails and social content to short-form videos and photography, I create digital content and campaigns that are tailored to each platform, informed by audience insights, and built to communicate with purpose.",
   ],
 };
 
