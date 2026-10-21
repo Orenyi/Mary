@@ -1,6 +1,6 @@
 import MaryHeroImage from "../assets/images/Mary_hero.webp";
 
-const CV_URL = "/Mary_CV.pdf";
+const CV_URL = "/Mary%20Otaru%20CV.pdf";
 const CONTACT_ID = "#contact";
 
 const HERO_CONTENT = {
