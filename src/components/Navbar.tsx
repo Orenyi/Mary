@@ -21,8 +21,8 @@ const CONTACT_LINK = "#contact";
 
 // Replace these with Mary's real contact details.
 const SOCIAL_LINKS = {
-  email: "mailto:YOUR_EMAIL@example.com",
-  linkedin: "https://www.linkedin.com/in/YOUR_LINKEDIN_PROFILE/",
+  email: "mailto:maryotaru81@gmail.com?subject=Project%20Enquiry",
+  linkedin: "https://www.linkedin.com/in/mary-otaru",
 };
 
 const menuVariants = {
@@ -228,7 +228,7 @@ export default function Navbar() {
                 animate="open"
                 className="flex flex-col items-start gap-5 sm:gap-7"
               >
-                {NAV_LINKS.map((link, index) => (
+                {NAV_LINKS.map((link) => (
                   <motion.a
                     key={link.href}
                     variants={reduceMotion ? undefined : linkVariants}
