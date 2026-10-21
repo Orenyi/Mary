@@ -6,6 +6,7 @@ import Expertise from "./sections/Expertise";
 import SelectedWork from "./sections/SelectedWork";
 import Process from "./sections/Process";
 import Contact from "./sections/Contact";
+import Certifications from "./sections/Certifications";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
         <About />
         <Expertise />
         <SelectedWork />
+        <Certifications />
         <Process />
         <Contact />
       </main>

@@ -17,13 +17,13 @@ import {
 import { StarsBackground } from "../../@/components/animate-ui/backgrounds/stars";
 
 const CONTACT_LINKS = {
-  email: "mailto:YOUR_EMAIL@example.com?subject=Project%20Enquiry",
-  whatsapp: "https://wa.me/YOUR_WHATSAPP_NUMBER",
-  linkedin: "https://www.linkedin.com/in/YOUR_LINKEDIN_PROFILE/",
+  email: "mailto:maryotaru81@gmail.com?subject=Project%20Enquiry",
+  whatsapp: "https://wa.me/2349031496617",
+  linkedin: "https://www.linkedin.com/in/mary-otaru",
 };
 
 const CONTACT_CONTENT = {
-  label: "05. Let's Work Together",
+  label: "06. Let's Work Together",
   headingStart: "Have a project",
   headingAccent: "mind?",
   description:
@@ -64,26 +64,26 @@ const CONTACT_ACTIONS = [
 const SOCIAL_LINKS = [
   {
     name: "X",
-    href: "https://x.com/YOUR_USERNAME",
+    href: "https://x.com/MaryOtaru001",
     Icon: FaXTwitter,
     color: "#000000",
   },
   {
     name: "TikTok",
-    href: "https://www.tiktok.com/@YOUR_USERNAME",
+    href: "https://www.tiktok.com/@maryotaru001",
     Icon: FaTiktok,
     color: "#000000",
   },
 
   {
     name: "Instagram",
-    href: "https://www.instagram.com/YOUR_USERNAME/",
+    href: "https://www.instagram.com/maryotaru_/",
     Icon: FaInstagram,
     color: "#E4405F",
   },
   {
     name: "Facebook",
-    href: "https://www.facebook.com/YOUR_USERNAME",
+    href: "https://www.facebook.com/share/1DHbFzziy6/",
     Icon: FaFacebookF,
     color: "#1877F2",
   },

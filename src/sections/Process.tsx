@@ -40,7 +40,7 @@ const PROCESS_STEPS = [
 ];
 
 const SECTION_CONTENT = {
-  label: "04. My Process",
+  label: "05. My Process",
   heading: "A simple and thoughtful approach.",
   description:
     "A step-by-step process to create meaningful and consistent content for your brand.",
